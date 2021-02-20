@@ -20,6 +20,6 @@ public class BankingApp {
         //Account.showTotal();
         //ac1.showAvg(ac3);
         Account.showAvg(ac1, ac2);
-      
+        Account.showAvg(ac1, ac2, ac3);
     }
 }
