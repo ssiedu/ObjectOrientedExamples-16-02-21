@@ -4,6 +4,15 @@ public class Account {
     private int bal;
     private static int total;
     
+    public Account(){}
+    public Account(int a, String b, int c){
+        ano=a;      
+        name=b;
+        bal=c;
+        total=total+c;
+    }
+    
+    
     public static void showAvg(Account... tmp){
         int sum=0;
         
