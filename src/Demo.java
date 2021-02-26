@@ -3,6 +3,11 @@ public class Demo {
 
     private int x, y, z;
     
+    
+    public void finalize(){
+        
+    }
+    
     public void test(){
         
     }
